@@ -2,9 +2,10 @@
 
 * **Course:** [CSE308 - Internet and Web Programming Lab](http://github.com/VIT-OCW/CSE308)
 * **Credits:**
-	| L | T | P | C |
-	|---|---|---|---|
-	| 0 | 0 | 3 | 2 |
+
+  | L | T | P | C |
+  |---|---|---|---|
+  | 0 | 0 | 3 | 2 |
 * **Need help?**
    * Look through and create [issues](https://github.com/VIT-OCW/CSE308/issues)
    * [Email](mailto:karthikb351@gmail.com) one of the moderators.
