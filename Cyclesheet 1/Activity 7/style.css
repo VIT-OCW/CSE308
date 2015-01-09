@@ -1,0 +1,87 @@
+.header
+{
+	background-color: orange;
+	font: normal 20px "Segoe UI Light", "Segoe", sans-serif;
+}
+#body
+{
+	background-color: #abcdef;
+	text-align: center;
+}
+#footer
+{
+	background-color: orange;
+    width: 100%;
+    float: left;
+    margin-top: 30%;
+}
+#menu
+{
+    top:150px;
+    left:8%;
+    padding:0;
+    margin:0;
+}
+#menu ul
+{
+    padding:0;
+    margin:0;
+    line-height:30px;
+}
+#menu li
+{
+    position:relative;
+    float:left;
+    list-style:none;
+    background:rgba(0,0,0,1);
+    border-radius:5px;
+}
+#menu ul ul
+{
+    position:absolute;
+    visibility:hidden;
+    padding:0;
+    margin:0;
+    top:30px;
+}
+#menu ul li a
+{
+    text-align:center;
+    font:"Arial Black", Arial;
+    font-size:24px;
+    color:rgba(255,255,255,9);
+    width:150px;
+    height:30px;
+    display:block;
+    text-decoration:none;
+}
+#menu ul li:hover
+{
+    background-color:rgba(128,128,128,1);
+    text-decoration:none;
+}
+#menu ul li:hover ul
+{
+    visibility:visible;
+    z-index:1;
+    position: absolute;
+}
+#menu ul li:hover ul li a
+{
+    background:rgba(0,0,0,9);
+    z-index:1;
+    border-bottom:1px solid rgba(160,160,164,1);
+    opacity:0.9;
+    text-decoration:none;
+    border-radius:5px;
+}
+#menu ul li ul li:hover
+{
+    background:rgba(128,128,128,1);
+    opacity:0.8;
+    text-decoration:underline;
+}
+.sec
+{
+    position: relative;
+}

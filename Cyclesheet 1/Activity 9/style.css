@@ -1,0 +1,30 @@
+#frow{
+	background-color: lightblue;
+}
+#no{
+	width: 10%;
+}
+#m{
+	width: 60%;
+}
+#y{
+	width: 30%
+}
+td{
+    border:solid 1px black;
+    border-width: 1px;
+    margin: 0px;
+
+}
+tr:hover{
+    background-color: lightseagreen;
+}
+table{
+    border:solid 1px black;
+    border-width: 1px;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+

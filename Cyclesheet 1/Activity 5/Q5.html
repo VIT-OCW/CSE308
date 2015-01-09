@@ -1,0 +1,25 @@
+<! DOCTYPE html>
+  <head>
+    <title> Activity 5 </title>
+  </head>
+  <body>
+    <figure>
+      <img src="/photo.jpeg" alt="photo">
+      <figcaption>My Photo</figcaption>
+    </figure>
+    <audio controls>
+      <source src="muse.mp3" type="audio/mpeg">
+    </audio>
+    <br>
+    <canvas id="mycanvas" width="300" height="100"
+    style="border:1px solid #000000;">
+    </canvas>
+    <embed src="helloworld.swf">
+    <script>
+      var c=document.getElementById("mycanvas");
+      var ctx=c.getContext("2d");
+      ctx.fillstyle="#FF0000";
+      ctx.fillrect(0,0,150,175);
+    </script>
+   </body>
+ </html>

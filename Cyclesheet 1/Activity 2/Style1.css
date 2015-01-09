@@ -1,0 +1,17 @@
+.header
+{
+	background-color: orange;
+}
+#body
+{
+	background-color: #abcdef;
+}
+.header
+{
+	font: normal 20px "Segoe UI Light", "Segoe", sans-serif;
+}
+
+#footer
+{
+	background-color: orange;
+}

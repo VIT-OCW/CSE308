@@ -1,0 +1,29 @@
+
+.header
+{
+	background-color: orange;
+	font: normal 20px "Segoe UI Light", "Segoe", sans-serif;
+}
+#body
+{
+	background-color: #abcdef;
+	text-align: center;
+}
+#table
+{
+	background-color: lightseagreen;
+	padding: 20px;
+}
+td
+{
+	border: solid;
+	border-width: 1px;
+}
+#headrow
+{
+	font-size: 36px
+}
+#footer
+{
+	background-color: orange;
+}

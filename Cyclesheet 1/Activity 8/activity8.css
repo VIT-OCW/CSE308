@@ -1,0 +1,38 @@
+#outer{
+	border: 2px black;
+	text-align: center;
+	width:20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#none{
+	border-style:none;
+}
+#dotted{
+	border-style:dotted;
+}
+#dashed{
+	border-style:dashed;
+}
+#solid{
+	border-style:solid;
+}
+#double{
+	border-style:double;
+}
+#groove{
+	border-style:groove;
+}
+#ridge{
+	border-style:ridge;
+}
+#inset{
+	border-style:inset;
+}
+#outset{
+	border-style:outset;
+}
+.space{
+	margin:5px;
+	background-color: skyblue;
+}

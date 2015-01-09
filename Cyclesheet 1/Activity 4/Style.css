@@ -1,0 +1,52 @@
+.header
+{
+	background-color: orange;
+	font: normal 24px "Segoe UI Light", "Segoe", sans-serif;
+}
+nav li
+{
+	display: inline;
+	text-decoration: underline;
+	font-weight: bold;
+}
+#nav
+{
+	background-color: lightseagreen;
+}
+#body
+{
+	background-color: #abcdef;
+	text-align: center;
+}
+#footer
+{
+	background-color: orange;
+	display: inline-block;
+	width: 100%;
+}
+#article
+{
+	float: left;
+	font-weight: bold;
+	background-color: cyan;
+	padding: 20px;
+	font-size: 20px;
+}
+#sidebar
+{
+	float: right;
+	font-size: 24px;
+	text-align: center;
+	background-color: cyan;
+}
+section
+{
+	background-color: lightblue;
+	height: 80px;
+	width: 500px;
+	border: solid;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: lighter;
+	font-size: 16px;
+}

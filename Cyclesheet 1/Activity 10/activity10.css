@@ -1,0 +1,14 @@
+h1{
+	text-shadow:2px 2px 0.2em grey;
+	text-wrap:none;
+}
+#overflow{
+	width: 10%;
+	background-color: #abcdef;
+}
+p{
+	text-overflow: ellipsis;
+}
+img{
+	float: left;
+}
