@@ -5,7 +5,7 @@
 
   | L | T | P | C |
   |---|---|---|---|
-  | 0 | 0 | 3 | 2 |
+  | 0 | 0 | 2 | 1 |
 * **Need help?**
    * Look through and create [issues](https://github.com/VIT-OCW/CSE308/issues)
    * [Email](mailto:karthikb351@gmail.com) one of the moderators.
