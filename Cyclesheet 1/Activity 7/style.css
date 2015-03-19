@@ -1,87 +1,65 @@
-.header
-{
-	background-color: orange;
-	font: normal 20px "Segoe UI Light", "Segoe", sans-serif;
-}
-#body
-{
-	background-color: #abcdef;
-	text-align: center;
-}
-#footer
-{
-	background-color: orange;
-    width: 100%;
-    float: left;
-    margin-top: 30%;
-}
-#menu
-{
-    top:150px;
-    left:8%;
-    padding:0;
-    margin:0;
-}
-#menu ul
-{
-    padding:0;
-    margin:0;
-    line-height:30px;
-}
-#menu li
-{
-    position:relative;
-    float:left;
-    list-style:none;
-    background:rgba(0,0,0,1);
-    border-radius:5px;
-}
-#menu ul ul
-{
-    position:absolute;
-    visibility:hidden;
-    padding:0;
-    margin:0;
-    top:30px;
-}
-#menu ul li a
-{
-    text-align:center;
-    font:"Arial Black", Arial;
-    font-size:24px;
-    color:rgba(255,255,255,9);
-    width:150px;
-    height:30px;
-    display:block;
-    text-decoration:none;
-}
-#menu ul li:hover
-{
-    background-color:rgba(128,128,128,1);
-    text-decoration:none;
-}
-#menu ul li:hover ul
-{
-    visibility:visible;
-    z-index:1;
-    position: absolute;
-}
-#menu ul li:hover ul li a
-{
-    background:rgba(0,0,0,9);
-    z-index:1;
-    border-bottom:1px solid rgba(160,160,164,1);
-    opacity:0.9;
-    text-decoration:none;
-    border-radius:5px;
-}
-#menu ul li ul li:hover
-{
-    background:rgba(128,128,128,1);
-    opacity:0.8;
-    text-decoration:underline;
-}
-.sec
-{
-    position: relative;
-}
+ nav { margin:100px auto; width:800px; }
+
+            nav ul {
+                padding:0;
+                margin:0;
+                list-style: none;
+                position: relative;
+                display:block;
+            }
+
+            nav ul li {
+                float:left;
+                display:list-item;
+                list-style: none; 
+
+                background-color:#64abfb;
+                border-bottom: 5px solid #2ecc71;
+            }
+
+            nav ul li a {
+                display:block;
+                padding:15px 10px;	
+
+                color:#FFF;
+                font-size:20px;
+                text-decoration:none;
+                font-family: 'Bree Serif', 'serif';
+            }
+
+            li a:hover { background-color: #2ecc71; }
+
+
+            /* Change this in order to change the Dropdown symbol */
+            li > a:after { content: ' »'; } 
+            li > a:only-child:after { content: ''; }  	
+
+
+            /* The Dropdown Styles */
+            /* =================== */
+
+            /* Hide Dropdowns by Default */
+            nav ul ul {
+                display: none;
+                position: absolute; top: 58px;
+            }
+
+            /* Display Dropdowns on Hover */
+            nav ul li:hover > ul {
+                display:list-item;
+            }
+
+            /* Fisrt Tier Dropdown */
+            nav ul ul li {
+                width:170px;
+                float:none;
+                position: relative;
+                border-bottom:none;
+            }
+
+            /* Second, Third and more Tiers	*/
+            nav ul ul ul li {
+                position: absolute relative;
+                top:-58px; 
+                left:170px;
+            }

@@ -1,53 +1,45 @@
 <!DOCTYPE html>
-<!--
-	Author: Aneesh Neelam
-	Date: 15th February, 2014
--->
 <html>
     <head>
-        <meta charset="utf-8"/>
-        <link rel="stylesheet" type="text/css" href="style.css" />
-        <meta name="author" content="Aneesh Neelam, 11BCE0260" />
-        <title>Activity 7</title>        
+        <title>CSS Drop Down Menu</title>
+        <meta charset="UTF-8" author="Anthoniraj A">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    
     </head>
-    <body id="body">
-        <div class="header">
-            <h1>Drop Down Menu</h1>
+    <body>
+        <div>
+             <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">WordPress</a>
+                        <!-- First Tier Drop Down -->
+                        <ul>
+                            <li><a href="#">Themes</a></li>
+                            <li><a href="#">Plugins</a></li>
+                            <li><a href="#">Tutorials</a></li>
+                        </ul>        
+                    </li>
+                    <li><a href="#">Web Design</a>
+                        <!-- First Tier Drop Down -->
+                        <ul>
+                            <li><a href="#">Resources</a></li>
+                            <li><a href="#">Links</a></li>
+                            <li><a href="#">Tutorials</a>
+                                <!-- Second Tier Drop Down -->
+                                <ul>
+                                    <li><a href="#">HTML/CSS</a></li>
+                                    <li><a href="#">jQuery</a></li>
+                                    <li><a href="#">Other</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Graphic Design</a></li>
+                    <li><a href="#">Inspiration</a></li>
+                    <li><a href="#">Contact</a></li>
+                
+                </ul>
+            </nav>
         </div>
-        <div id="menu">
-            <ul>
-                <li><a href="#">Home</a></li>
-            </ul>
-            <ul>
-                <li><a href="#">Categories</a>    <!--This is in main menu-->
-                    <ul>
-                        <li><a href="#">Web Design</a>
-                            <!--
-                            <ul id="sec">
-                                <li><a href="#">HTML</a></li>
-                                <li><a href="#">CSS</a></li>
-                            </ul>
-                            -->
-                        </li>
-                        <li><a href="#">Photoshop</a></li> 
-                        <li><a href="#">Corel Draw</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <ul>
-                <li><a href="#">Most Popular</a>
-                    <ul>
-                        <li><a href="#">Technology</a></li>
-                        <li><a href="#">Tutorial</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <ul>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </div>
-        <footer id="footer">
-			Copyright &copy; 2014, Aneesh Neelam
-		</footer>
     </body>
 </html>
